@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7f616d4d-4f6d-494b-bc84-0460ad52e1e7",
+  "name": "WideRoom",
+  "symbol": "bg_wideroom",
+  "tileColors": "",
+  "filename": "WideRoom.png",
+  "width": 30,
+  "height": 18,
+  "imageWidth": 240,
+  "imageHeight": 144
+}

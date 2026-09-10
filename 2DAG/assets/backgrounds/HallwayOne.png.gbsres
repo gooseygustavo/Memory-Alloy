@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d7029f57-d281-4f54-9c2c-db07e2e7f917",
+  "name": "HallwayOne",
+  "symbol": "bg_hallwayone",
+  "tileColors": "",
+  "filename": "HallwayOne.png",
+  "width": 20,
+  "height": 35,
+  "imageWidth": 160,
+  "imageHeight": 280
+}
