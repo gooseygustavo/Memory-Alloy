@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "bc24bdc6-20a6-403b-96bc-e7317e67ff63",
+  "_index": 6,
+  "name": "ChurchRoom",
+  "backgroundId": "a64d3e4c-6e8e-4ffa-80ef-dc732df51933",
+  "tilesetId": "",
+  "width": 30,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0021c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 320,
+  "y": 544,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

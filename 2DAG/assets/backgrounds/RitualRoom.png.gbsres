@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "79da7b53-29fa-49a6-b368-344a852fc930",
+  "name": "RitualRoom",
+  "symbol": "bg_ritualroom",
+  "tileColors": "",
+  "filename": "RitualRoom.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

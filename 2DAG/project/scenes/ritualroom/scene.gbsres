@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "cb562e2b-364a-402f-a4c5-9987521a1941",
+  "_index": 7,
+  "name": "RitualRoom",
+  "backgroundId": "79da7b53-29fa-49a6-b368-344a852fc930",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_8",
+  "x": 576,
+  "y": 544,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
