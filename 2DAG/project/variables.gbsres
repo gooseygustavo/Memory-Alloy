@@ -1,0 +1,76 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "foundCat",
+      "symbol": "var_foundcat"
+    },
+    {
+      "id": "1",
+      "name": "Seen duck",
+      "symbol": "var_seen_duck"
+    },
+    {
+      "id": "2",
+      "name": "Used Radio",
+      "symbol": "var_used_radio"
+    },
+    {
+      "id": "3",
+      "name": "Spoke To Space Dog",
+      "symbol": "var_spoke_to_space_dog"
+    },
+    {
+      "id": "4",
+      "name": "foundDog",
+      "symbol": "var_founddog_0"
+    },
+    {
+      "id": "5",
+      "name": "dollars",
+      "symbol": "var_dollars"
+    },
+    {
+      "id": "6",
+      "name": "foundDogtwo",
+      "symbol": "var_founddogtwo"
+    },
+    {
+      "id": "7",
+      "name": "Quest4",
+      "symbol": "var_quest4"
+    },
+    {
+      "id": "8",
+      "name": "Quest5",
+      "symbol": "var_quest5"
+    },
+    {
+      "id": "9",
+      "name": "Quest6",
+      "symbol": "var_quest6"
+    },
+    {
+      "id": "10",
+      "name": "NewGame",
+      "symbol": "var_newgame"
+    },
+    {
+      "id": "11",
+      "name": "SaveGame",
+      "symbol": "var_savegame"
+    },
+    {
+      "id": "12",
+      "name": "PushedIceBlock",
+      "symbol": "var_pushediceblock"
+    },
+    {
+      "id": "1075ee68-f5e2-4fe9-9dbd-c0746f299df9__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    }
+  ],
+  "constants": []
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e6d0496f-e06d-46b6-bb56-5c7c47da26c3",
+  "name": "HorizontalHallway",
+  "symbol": "bg_horizontalhallway",
+  "tileColors": "",
+  "filename": "HorizontalHallway.png",
+  "width": 40,
+  "height": 26,
+  "imageWidth": 320,
+  "imageHeight": 208
+}

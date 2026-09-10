@@ -1,0 +1,111 @@
+{
+  "_resourceType": "trigger",
+  "id": "1075ee68-f5e2-4fe9-9dbd-c0746f299df9",
+  "name": "Cave Door",
+  "prefabId": "",
+  "x": 9,
+  "y": 17,
+  "symbol": "trigger_6",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "0"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "2f2806af-f8a6-44fd-9d03-09a44d0059f7"
+            },
+            "id": "ea21b096-49b0-4de6-9a94-51bee0e7acf2"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You must find the \ncat to exit the\nroom."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 5,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "23f527d0-d721-4fa4-9dc0-fd897193928e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This is because \nthe cat has the \nkey."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 5,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "af59a626-a6f2-4f9f-bcca-bd552025448c"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "040bff86-532b-407c-befb-a5050a23fa93",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 10
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "c59f1e08-a575-4f3c-9873-21a0fd61579c"
+          }
+        ]
+      },
+      "id": "46b2c554-4f7f-4bba-a3d8-62a98eb3abca"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

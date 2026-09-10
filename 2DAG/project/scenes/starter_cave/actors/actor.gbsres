@@ -1,0 +1,85 @@
+{
+  "_resourceType": "actor",
+  "id": "fba5981f-99ff-4305-96fc-841f1c4820a7",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_0",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Good job! You\nfound the key."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "884ed9f7-5f0a-4515-9ac2-f80d69f2a917"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "0",
+        "value": {
+          "type": "true"
+        }
+      },
+      "id": "e314c4c6-d191-4e29-a31b-f599a9654d59"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "8753de93-c32b-4281-a975-e02cf6c07200"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.2,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "2c7a8ce7-c921-4b1d-af55-4b0299343974"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 14,
+  "y": 10,
+  "_index": 0
+}
