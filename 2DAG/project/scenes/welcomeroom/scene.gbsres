@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "496bd255-8d07-4cb0-9dfe-7b911ae3a1ed",
+  "_index": 8,
+  "name": "WelcomeRoom",
+  "backgroundId": "bd9600c7-cbed-46d2-a0a9-e650104e8962",
+  "tilesetId": "",
+  "width": 30,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2+01c+002+01c+0f4+00a+0f2+002+0f2+00a+0f4+00a+0f2+002+0f2+00a+0f4+00a+012+002+012+00a+0f8+0012+0f8+002+0f2+0012+0f2+002+0f4+00!0f3+0012+0f3+00!0f4+002+0f2+0012+0f2+002+0f4+00!0f3+0012+0f3+00!0f4+002+0f2+0012+0f2+002+0f4+00!0f3+0012+0f3+00!0f4+002+0f2+0012+0f2+002+0f4+002+0f2+0012+0f2+002+0f8+0012+0f8+001a+0f4+001a+0f4+001a+0f4+02c+002+02c+0f2+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_9",
+  "x": 296,
+  "y": 216,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

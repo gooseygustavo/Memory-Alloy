@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "bd9600c7-cbed-46d2-a0a9-e650104e8962",
+  "name": "WelcomeRoom",
+  "symbol": "bg_welcomeroom",
+  "tileColors": "",
+  "filename": "WelcomeRoom.png",
+  "width": 30,
+  "height": 18,
+  "imageWidth": 240,
+  "imageHeight": 144
+}
