@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "8762be94-4f74-405e-b7cf-9ded226f7e05",
+  "_index": 10,
+  "name": "ExitRoom",
+  "backgroundId": "d9499676-9d52-4029-ab05-b3e31a8567b2",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f2a+00!0f5+00!0f2+00!0f5+00!0f4+00!0f5+00!0f2+00!0f5+00!0fb+002+0fb+0010+0f4+0010+0f2+012+0010+012+0028+022+0010+022+0f2+04!00e+08!0f4+04!00e+08!0f4+04!00e+08!0f4+04!00e+08!0f4+04!002+02a+002+08!0f2a+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_11",
+  "x": 152,
+  "y": 656,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

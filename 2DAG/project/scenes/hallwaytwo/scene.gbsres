@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "9cc2c381-6faa-4d74-8d51-1ca7bd4b02ef",
+  "_index": 9,
+  "name": "HallwayTwo",
+  "backgroundId": "5ab8ea71-0e9b-4f9a-8427-d23015c308c3",
+  "tilesetId": "",
+  "width": 20,
+  "height": 35,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f4+015+002+015+0f8+004+0f!002+0f!004+0f8+00c+0f7+00e+0f6+00e+0f6+00e+0f6+00e+0f7+00c+0f8+00c+0f8+00c+0f7+00e+0f6+00e+0f6+00e+0f6+00e+0f5+01!00e+01!0f4+0010+0f2+0028+0f3+00e+0f6+00e+0f7+00c+0f8+00c+0f8+00c+0f7+00e+0f6+00e+0f5+00f+0f6+00e+0f6+00e+0f7+00c+0f8+00c+0f8+00c+0f7+003+0f3+002+0f3+003+0f6+003+0f3+002+0f3+003+0f5+004+0f3+022+0f3+004+0f4+025+0f!02!0f2+02!0f!025+0f2+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 344,
+  "y": 592,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

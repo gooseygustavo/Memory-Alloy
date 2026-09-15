@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "d9499676-9d52-4029-ab05-b3e31a8567b2",
+  "name": "ExitRoom",
+  "symbol": "bg_exitroom",
+  "tileColors": "",
+  "filename": "ExitRoom.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
