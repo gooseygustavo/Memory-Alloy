@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "60ffab0e-beec-4990-913d-6089c7fc90e9",
+  "name": "BShelf",
+  "symbol": "sprite_shelf",
+  "states": [
+    {
+      "id": "b4ead803-f019-4b74-b3ec-18233b01bf28",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "f3da2c4c-740a-4cbe-b2f9-a2c450aaf1f9",
+          "frames": [
+            {
+              "id": "a54b35ad-fab9-47a0-bc2a-8ae3ac01493b",
+              "tiles": [
+                {
+                  "id": "a5064a33-dd6f-490a-9b44-8bded4ed6c30",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "d1510ee0-9bdb-4c6d-8d11-fc910f275db2",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "1bd8e490-688e-4bc3-82c6-001e1b4c3c5b",
+              "tiles": [
+                {
+                  "id": "9931030f-505d-4580-87dc-39d13844ce6b",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "6d20e385-d3a3-4b06-8eac-c1c6cb039bc7",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "17e24800-eb52-452a-8542-05c8a86f5a60",
+          "frames": [
+            {
+              "id": "0c82d511-8cec-4203-b2bc-2ad540d41125",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ca52e102-f5f1-46e7-94bf-1ef9f9153bad",
+          "frames": [
+            {
+              "id": "92ecea5c-87ce-4a76-accc-41bf39345f3f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "385f491d-0a67-4df3-b4cc-60fc26d43415",
+          "frames": [
+            {
+              "id": "48fa4e24-144e-4b11-b1b4-4604a931b6d1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "b4aeada8-3680-480c-a7fa-d542cf1daa30",
+          "frames": [
+            {
+              "id": "4c23e440-8072-4eb2-a40e-b6c415ab1f7a",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "04a567fe-5779-47e8-b9f5-93276a162da4",
+          "frames": [
+            {
+              "id": "a0357b1a-d29c-40be-8c42-2ad2b93f858b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "70c32250-1ab2-491d-a9fd-4bec3f3cb720",
+          "frames": [
+            {
+              "id": "8562d0f0-dcd8-4fe2-967e-931cab021fb2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e8acb084-348c-47f0-a9fe-f97b9de662eb",
+          "frames": [
+            {
+              "id": "3dbdd594-a7df-4882-9285-03d8b85bf66f",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "BShelf.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "ab3ea60de5b8d943273ccd8659d31431e6480225"
+}

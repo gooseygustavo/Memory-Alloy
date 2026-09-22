@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "358b9a21-7574-4f33-aac1-a696db091900",
+  "name": "fakewall",
+  "symbol": "sprite_fakewall",
+  "states": [
+    {
+      "id": "b34591b3-1a88-4397-84e4-269ffbc7a7b1",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "2e628ce1-f8ce-40c0-8e4c-6c0501775564",
+          "frames": [
+            {
+              "id": "6919798c-be9d-4db9-99ab-236afbeebc4e",
+              "tiles": [
+                {
+                  "id": "a037ab77-b72c-48f5-898a-6962fa3fd922",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "f01906ad-33a2-4bec-a16e-40efd6dbcf66",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "026799c4-3242-469e-9776-4deb97d69ea7",
+          "frames": [
+            {
+              "id": "21d1273b-00fc-4f19-8213-6d5847503b1c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1b382eeb-2a3b-4c1f-8642-9ad03935df66",
+          "frames": [
+            {
+              "id": "7755a998-4498-4c86-a44f-a3544a17b205",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "20aeebe5-1c2a-4c62-b553-0216500c093f",
+          "frames": [
+            {
+              "id": "c0d0ae3f-3029-41c5-ae85-de031ede2015",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "475daff1-c911-4416-82f6-a3235c67d2dc",
+          "frames": [
+            {
+              "id": "402a45b1-8cc8-48e4-96d1-7e17c2173755",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f088a1ba-5aed-4983-a34f-5f5899f56c55",
+          "frames": [
+            {
+              "id": "df1cc18d-80f4-4b58-99ac-510a7dc198e6",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e2780e1d-e6cf-40d9-b572-69b8a24cf0a5",
+          "frames": [
+            {
+              "id": "4ba02ddf-5e79-485f-8836-1cefdc600d3c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "77376648-6999-48ac-969b-b188e967b853",
+          "frames": [
+            {
+              "id": "d7960c5e-92ec-4149-84b1-3381490a44bf",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "fakewall.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "d93c8222a662c377d6155cfdcced6a6e62fdc2ef"
+}

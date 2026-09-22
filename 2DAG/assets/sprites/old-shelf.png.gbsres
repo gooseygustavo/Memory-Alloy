@@ -1,0 +1,160 @@
+{
+  "_resourceType": "sprite",
+  "id": "21880d4a-dfe0-45aa-8fb7-0b729e328cfb",
+  "name": "old-shelf",
+  "symbol": "sprite_shelf_",
+  "states": [
+    {
+      "id": "1a229c4e-e0bb-4a79-8912-cdd7f0f4d701",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "df4009c5-85c8-4193-a53f-e4c3d0d5fb80",
+          "frames": [
+            {
+              "id": "bf7b52a9-20b9-45d9-8161-545dff2fd98f",
+              "tiles": [
+                {
+                  "id": "5cb9fd31-b2db-4aa2-850f-8ef97ac4b4f3",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "6b15eca8-29ed-4c24-ab62-bb4e5c61ce45",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            },
+            {
+              "id": "f72a7c8c-ea83-4b89-b2bb-f3ddce1ed3ba",
+              "tiles": [
+                {
+                  "id": "70eb7289-24c7-4415-82ef-562f5018e40b",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 16,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "a9f1d5e6-f744-48f9-8cc8-74b995adefbf",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 24,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "aceb5780-cc03-4239-ba41-f450f07bb27f",
+          "frames": [
+            {
+              "id": "e611c1d1-f5d3-4157-923c-8fc213b3a9b5",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "245a1443-5a4f-4565-bb50-082ac0e466fd",
+          "frames": [
+            {
+              "id": "1c41fb07-8065-4f2a-9352-3ec3dd6a2d69",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1dbf1702-b551-4220-804a-3e53dd248dbb",
+          "frames": [
+            {
+              "id": "6d2614c4-115e-4ca9-8d0c-ead70a188de0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "5bd57e27-b900-4faa-9757-ea0acde8a782",
+          "frames": [
+            {
+              "id": "2dcdfd7d-e4f4-4d03-af98-8f23b3a388ea",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e7f9b5b2-93bb-44b6-b6d1-434666458709",
+          "frames": [
+            {
+              "id": "e07ec521-359d-4bf6-a88f-f61f9b033104",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "04510214-ed2c-4629-ab3b-26467f3787ec",
+          "frames": [
+            {
+              "id": "51741d58-aa70-4c9f-9703-806e2fac38d0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "48da52ea-aa03-4318-b5bd-025be2a70a86",
+          "frames": [
+            {
+              "id": "67f075a2-a3fe-4cc3-a616-55ad8e2e9301",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 4,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "old-shelf.png",
+  "width": 32,
+  "height": 16,
+  "checksum": "e2493c8a50afc89e98cd5942e1c491a76773e2f4"
+}

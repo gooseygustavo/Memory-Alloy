@@ -1,0 +1,52 @@
+{
+  "_resourceType": "trigger",
+  "id": "dc79ce00-809f-4436-8fd4-548859e2fe0d",
+  "name": "",
+  "prefabId": "",
+  "x": 5,
+  "y": 4,
+  "symbol": "trigger_29",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 10,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        }
+      },
+      "id": "04840c5d-d137-4d0c-b635-bb03c60e63cc"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This is where\nwe used to check\nin."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "dc1ae348-da06-425d-826b-ed962e60d807"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "fa168056-44f2-4c33-a11b-4e1b13883717",
+  "name": "SokobanRoom",
+  "symbol": "bg_sokobanroom",
+  "tileColors": "",
+  "filename": "SokobanRoom.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

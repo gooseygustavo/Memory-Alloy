@@ -11,21 +11,99 @@
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "9cc2c381-6faa-4d74-8d51-1ca7bd4b02ef",
-        "x": {
-          "type": "number",
-          "value": 9
+        "condition": {
+          "type": "variable",
+          "value": "26"
         },
-        "y": {
-          "type": "number",
-          "value": 3
-        },
-        "direction": "down",
-        "fadeSpeed": "2"
+        "__collapseElse": false
       },
-      "id": "462f5903-5dde-4131-bc2e-dc28b5efc09c"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "28",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "8594a8c2-52ee-460c-be7e-fbf2d6158a96"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I'll try the key."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "5b51fd2b-b30f-4ede-b3e2-cb7481443a4c"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9cc2c381-6faa-4d74-8d51-1ca7bd4b02ef",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 3
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "462f5903-5dde-4131-bc2e-dc28b5efc09c"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The door is\nlocked.",
+                "I need to find\nthe key."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e44455c6-1456-4f69-b7c7-d8971872fb72"
+          }
+        ]
+      },
+      "id": "230b3c5e-405e-4541-8aef-344b968ac6f0"
     }
   ],
   "leaveScript": [],

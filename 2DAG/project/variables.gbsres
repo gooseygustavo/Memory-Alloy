@@ -3,38 +3,38 @@
   "variables": [
     {
       "id": "0",
-      "name": "foundCat",
-      "symbol": "var_foundcat"
+      "name": "winCondition",
+      "symbol": "var_wincondition"
     },
     {
       "id": "1",
-      "name": "Seen duck",
-      "symbol": "var_seen_duck"
+      "name": "winSokoban",
+      "symbol": "var_winsokoban"
     },
     {
       "id": "2",
-      "name": "Used Radio",
-      "symbol": "var_used_radio"
+      "name": "boxOne",
+      "symbol": "var_boxone"
     },
     {
       "id": "3",
-      "name": "Spoke To Space Dog",
-      "symbol": "var_spoke_to_space_dog"
+      "name": "boxTwo",
+      "symbol": "var_boxtwo"
     },
     {
       "id": "4",
-      "name": "foundDog",
-      "symbol": "var_founddog_0"
+      "name": "boxThree",
+      "symbol": "var_boxthree"
     },
     {
       "id": "5",
-      "name": "dollars",
-      "symbol": "var_dollars"
+      "name": "transformationOneFX",
+      "symbol": "var_transformationonefx"
     },
     {
       "id": "6",
-      "name": "foundDogtwo",
-      "symbol": "var_founddogtwo"
+      "name": "r",
+      "symbol": "var_r"
     },
     {
       "id": "7",
@@ -67,9 +67,129 @@
       "symbol": "var_pushediceblock"
     },
     {
+      "id": "13",
+      "name": "talkedToP2",
+      "symbol": "var_talkedtop2"
+    },
+    {
+      "id": "14",
+      "name": "transformedIntoP2",
+      "symbol": "var_transformedintop2"
+    },
+    {
+      "id": "15",
+      "name": "boxXCoord",
+      "symbol": "var_boxxcoord"
+    },
+    {
+      "id": "16",
+      "name": "boxYCoord",
+      "symbol": "var_boxycoord"
+    },
+    {
+      "id": "17",
+      "name": "enteredSokoban",
+      "symbol": "var_enteredsokoban"
+    },
+    {
+      "id": "18",
+      "name": "regressed",
+      "symbol": "var_regressed"
+    },
+    {
+      "id": "19",
+      "name": "transformedIntoP1",
+      "symbol": "var_transformedintop1"
+    },
+    {
+      "id": "20",
+      "name": "transformedIntoKing",
+      "symbol": "var_transformedintoking"
+    },
+    {
+      "id": "21",
+      "name": "setBoxPositions",
+      "symbol": "var_setboxpositions"
+    },
+    {
+      "id": "22",
+      "name": "box1YCoord",
+      "symbol": "var_box1ycoord"
+    },
+    {
+      "id": "23",
+      "name": "box2XCoord",
+      "symbol": "var_box2xcoord"
+    },
+    {
+      "id": "24",
+      "name": "box2YCoord",
+      "symbol": "var_box2ycoord"
+    },
+    {
+      "id": "25",
+      "name": "activateFX",
+      "symbol": "var_activatefx"
+    },
+    {
+      "id": "26",
+      "name": "gotSkullKey",
+      "symbol": "var_gotskullkey"
+    },
+    {
       "id": "1075ee68-f5e2-4fe9-9dbd-c0746f299df9__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "bc24bdc6-20a6-403b-96bc-e7317e67ff63__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    },
+    {
+      "id": "dc1a6f68-9b16-4241-b36b-a481a57003fc__L0",
+      "name": "Local 0",
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "9357e491-4937-493b-a6bc-b7a8133ec12c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
+    },
+    {
+      "id": "2c96f62d-72ae-4fa6-ac38-76812729956e__L0",
+      "name": "Local 0",
+      "symbol": "var_local_4"
+    },
+    {
+      "id": "27",
+      "name": "seenP2",
+      "symbol": "var_seenp2"
+    },
+    {
+      "id": "28",
+      "name": "unlockedHallwayTwo",
+      "symbol": "var_unlockedhallwaytwo"
+    },
+    {
+      "id": "29",
+      "name": "prayer",
+      "symbol": "var_prayer"
+    },
+    {
+      "id": "30",
+      "name": "ritualPenance",
+      "symbol": "var_ritualpenance"
+    },
+    {
+      "id": "afe22273-e32c-46ff-ade5-e2abc37801b1__L0",
+      "name": "Local 0",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "31",
+      "name": "gameEnd",
+      "symbol": "var_gameend"
     }
   ],
   "constants": []

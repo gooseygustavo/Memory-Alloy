@@ -1,0 +1,117 @@
+{
+  "_resourceType": "trigger",
+  "id": "6dd439c1-a853-482a-8e25-e447e5cb3205",
+  "name": "",
+  "prefabId": "",
+  "x": 19,
+  "y": 7,
+  "symbol": "trigger_7",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 3
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "bcfd5f14-88e2-40e3-9116-f7f5aa49c760"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "1"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "7f358521-555f-4f0f-b817-a900f82000f9"
+                  },
+                  "id": "820d8c80-332d-4cdc-924c-9373c1708153"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "cb562e2b-364a-402f-a4c5-9987521a1941",
+                    "x": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 8
+                    },
+                    "direction": "right",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "b48bcf23-edf6-44ad-a868-b105888ced10"
+                }
+              ],
+              "false": []
+            },
+            "id": "e7a98afa-ed6b-4224-8a6f-27618df0dc50"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Seems like I can't\nget through.",
+                "I think I need to\nput the boxes on\nthe plates."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7b8f05c0-7c4b-437d-aa17-2ace704321a6"
+          }
+        ]
+      },
+      "id": "13786934-6483-48a3-a182-b1a3136b60e1"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

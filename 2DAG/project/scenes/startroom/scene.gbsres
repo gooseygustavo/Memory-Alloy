@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "e462db25-10c7-4e6f-89fb-8d3dd0e920b4",
-  "_index": 3,
+  "_index": 0,
   "name": "StartRoom",
   "backgroundId": "dd2a7060-b700-4189-a2da-21c6657ccbf2",
   "tilesetId": "",
@@ -11,12 +11,20 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f29+08!04!00!08!04!00!08!04!012+08!04!00!08!04!00!08!04!0f2+08!04!00!08!04!00!08!04!002+08!04!00!08!04!00!08!04!0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f4+00e+0f6+00e+0f4+0012+0f2+0012+0f3+04!00e+08!0f4+04!00e+08!0f4+04!00e+08!0f4+04!00e+08!0f4+04!00e+08!0fb+002+0f9+",
+  "collisions": "0f29+08!04!00!08!04!00!08!04!0f2+08!04!00!08!04!00!08!04!0f2+08!04!00!08!04!00!08!04!002+08!04!00!08!04!00!08!04!0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f3+0010+0f4+0010+0f3+0012+0f2+0012+0f3+04!00e+08!0f4+04!00e+08!0f4+04!00e+08!0f4+04!00e+08!0f4+04!00e+08!0fb+002+0f9+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
   "x": 104,
   "y": 32,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "e476d57a-47a9-4318-99db-55d1226f6b18"
+      },
+      "id": "7bee56bb-cdc4-4cb6-a35e-aa0cc016ebce"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

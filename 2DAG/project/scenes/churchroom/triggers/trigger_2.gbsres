@@ -1,31 +1,73 @@
 {
   "_resourceType": "trigger",
-  "id": "d320537f-abfa-4281-8efb-dde663d7209c",
+  "id": "dc15146f-299b-493a-a61e-86865e8d8afc",
   "name": "",
   "prefabId": "",
-  "x": 29,
-  "y": 7,
-  "symbol": "trigger_8",
+  "x": 14,
+  "y": 17,
+  "symbol": "trigger_10",
   "prefabScriptOverrides": {},
-  "width": 1,
-  "height": 3,
+  "width": 2,
+  "height": 1,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "cb562e2b-364a-402f-a4c5-9987521a1941",
-        "x": {
-          "type": "number",
-          "value": 3
+        "condition": {
+          "type": "variable",
+          "value": "1"
         },
-        "y": {
-          "type": "number",
-          "value": 8
-        },
-        "direction": "right",
-        "fadeSpeed": "2"
+        "__collapseElse": false
       },
-      "id": "51eec8d3-2b92-4498-85ce-a50a8fca7296"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "496bd255-8d07-4cb0-9dfe-7b911ae3a1ed",
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "2cf6257e-1e7a-4540-bf29-4805ab193ef2"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Maybe I should\nfinish exploring\nthis room."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0f36644e-7498-4d65-875c-df55ab8ac168"
+          }
+        ]
+      },
+      "id": "30199a7c-b8cb-4ae8-b8f0-49e1541f4ee8"
     }
   ],
   "leaveScript": [],

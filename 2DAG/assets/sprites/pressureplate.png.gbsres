@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "fb499063-9eaa-42f5-8dd3-2a1792dc9b35",
+  "name": "pressureplate",
+  "symbol": "sprite_pressureplate",
+  "states": [
+    {
+      "id": "8d135e74-b6aa-4d1e-8c5e-22129580ace9",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "9713599c-f82a-49f2-942a-735b4c78c6fb",
+          "frames": [
+            {
+              "id": "4e49ec9c-fd4a-491d-b35c-880dec641545",
+              "tiles": [
+                {
+                  "id": "6ba2d99b-fee2-4131-9ce9-ad7169831ac8",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "fbbce95f-9712-4988-818f-d2fc4a0e30ba",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "7ebee7b9-0578-4e73-913d-5e797cfdc227",
+          "frames": [
+            {
+              "id": "e668605e-3c2d-46ae-b2c3-b34554886da8",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "69365161-08e2-494a-93dd-c952e29730c4",
+          "frames": [
+            {
+              "id": "1e4851bc-5b9b-4610-a972-51d67eb7ff34",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6a58ff90-cbe7-4dc5-9623-d3081fd5ef20",
+          "frames": [
+            {
+              "id": "6a0a7fa0-b71c-4b6d-91d1-5eb4067ff41b",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "795ca0ce-dbd8-46e3-8915-293f6c3018f9",
+          "frames": [
+            {
+              "id": "d4326eb9-f941-4540-94c2-a282e7ed9768",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c00bc1e7-8c58-4efb-97ca-d0e70644f47f",
+          "frames": [
+            {
+              "id": "c8afc2a7-aad5-4fdf-8661-15db625d3743",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e1d810b2-4727-41b2-a242-2b89d4776aa0",
+          "frames": [
+            {
+              "id": "1e934e56-fdc5-4b63-8e81-49907aaf05ce",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9071954d-3c35-4b45-b2f8-c403dfed8061",
+          "frames": [
+            {
+              "id": "26572734-dbe9-4316-9a35-6aebd0cbb7d0",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "pressureplate.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "ec454de7d5348a5b9000898fc86f36b3f8dbe5da"
+}

@@ -1,0 +1,103 @@
+{
+  "_resourceType": "trigger",
+  "id": "df6b98a9-965f-42e9-9b69-b3f9d60f4833",
+  "name": "",
+  "prefabId": "",
+  "x": 21,
+  "y": 13,
+  "symbol": "trigger_27",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "8ea4c6ae-3696-4629-8fb9-352e1c821e73"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "29",
+        "trueText": "Pray",
+        "falseText": "Leave"
+      },
+      "id": "73749f4c-c3ee-4204-98d6-f0e582bbe872"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "29"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Forgive me."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c77b38f0-9fad-47e5-a1c0-574c64ab38a4"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Why do I even try\nwith this anymore?"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "df5c4499-32d7-4b04-8108-ee026d625372"
+          }
+        ]
+      },
+      "id": "cda09c1c-36a1-41c5-9fee-41cb6e698486"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 5
+}

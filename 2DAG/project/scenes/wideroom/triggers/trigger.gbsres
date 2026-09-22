@@ -11,21 +11,76 @@
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "bc24bdc6-20a6-403b-96bc-e7317e67ff63",
-        "x": {
-          "type": "number",
-          "value": 14
+        "condition": {
+          "type": "variable",
+          "value": "14"
         },
-        "y": {
-          "type": "number",
-          "value": 2
-        },
-        "direction": "down",
-        "fadeSpeed": "2"
+        "__collapseElse": false,
+        "__collapse": false
       },
-      "id": "4597f372-ebbb-4719-9539-d8c4f297fcdc"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "25",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "55544fb5-b759-4343-820a-f06938afeb3d"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "bc24bdc6-20a6-403b-96bc-e7317e67ff63",
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "4597f372-ebbb-4719-9539-d8c4f297fcdc"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "25",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "3bb5620a-efd0-48fe-943d-f5e0a9124b5a"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "bc24bdc6-20a6-403b-96bc-e7317e67ff63",
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "72d048bd-8fe4-4aaf-ab8a-b66f3bbccc4d"
+          }
+        ]
+      },
+      "id": "57e2a5e5-33c5-46b5-b59b-0a941e1f0dc2"
     }
   ],
   "leaveScript": [],

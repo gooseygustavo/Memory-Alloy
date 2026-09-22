@@ -11,21 +11,73 @@
   "height": 2,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_SET_VALUE",
       "args": {
-        "sceneId": "bc24bdc6-20a6-403b-96bc-e7317e67ff63",
-        "x": {
-          "type": "number",
-          "value": 25
-        },
-        "y": {
-          "type": "number",
-          "value": 8
-        },
-        "direction": "left",
-        "fadeSpeed": "2"
+        "variable": "21",
+        "value": {
+          "type": "true"
+        }
       },
-      "id": "b656377e-a632-43a2-a7b5-8d7b8debc6c4"
+      "id": "39bf1b63-dd4d-415d-8f23-82a3b3fb378f"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "19"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "f225515a-11f6-48be-9c6f-df75d4abb3ec",
+              "x": {
+                "type": "number",
+                "value": 16
+              },
+              "y": {
+                "type": "number",
+                "value": 8
+              },
+              "direction": "left",
+              "fadeSpeed": "2"
+            },
+            "id": "b656377e-a632-43a2-a7b5-8d7b8debc6c4"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I can't go back\nyet."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "fd7dcf9e-2b5f-4c92-aabd-a8699986e95e"
+          }
+        ]
+      },
+      "id": "28e6f096-ef93-4e89-bc00-2c4e08e805d2"
     }
   ],
   "leaveScript": [],

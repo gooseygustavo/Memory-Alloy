@@ -1,12 +1,12 @@
 {
   "_resourceType": "actor",
-  "id": "2f920c95-f91b-4251-8051-8ecc4b41d131",
+  "id": "dc1a6f68-9b16-4241-b36b-a481a57003fc",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
+  "spriteSheetId": "2044931e-bd13-4353-a1fd-2df0d6f821bc",
   "prefabId": "",
-  "direction": "up",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -15,15 +15,266 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_7",
-  "script": [],
+  "symbol": "actor_8",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "13"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Why do you keep \nsneaking out?",
+                "Do you have a \ndeath wish?",
+                "I'll help you out.\nIf you're that\ncurious..",
+                "..nobody will\nsuspect you if\nyou're \"me\". "
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "9855c5f1-aeb1-48a7-913f-e09e617e0348"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "14",
+              "value": {
+                "type": "false"
+              },
+              "__collapse": true
+            },
+            "id": "7ca39886-0160-47b8-811e-e00ba68fd6e2"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "f4c390aa-2f81-4085-8287-5605536a3ae0"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "13",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": true
+            },
+            "id": "dda7c404-a291-4431-a117-b5e5f0201079"
+          }
+        ],
+        "false": []
+      },
+      "id": "c2e4b080-cf2d-46e5-ab02-ea6d41e198a5"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "14"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "5"
+              },
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "crash",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 0,
+                    "__collapse": true
+                  },
+                  "id": "02ef199b-47bb-4a51-8c5a-e9084f1db5b2"
+                },
+                {
+                  "command": "EVENT_CAMERA_SHAKE",
+                  "args": {
+                    "time": 0.5,
+                    "frames": 30,
+                    "shakeDirection": "horizontal",
+                    "magnitude": {
+                      "type": "number",
+                      "value": 5
+                    },
+                    "__collapse": true
+                  },
+                  "id": "d74d2d79-d83c-4ee5-b71e-a73efd596801"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "5",
+                    "value": {
+                      "type": "false"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "392d8f32-b315-4410-bb8c-9dbc4b818b48"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "14",
+                    "value": {
+                      "type": "true"
+                    },
+                    "__collapse": true
+                  },
+                  "id": "20813806-423d-4cc6-b7c5-cdb191312e11"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "variable",
+                      "value": "14"
+                    },
+                    "__collapseElse": false,
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_PLAYER_SET_SPRITE",
+                        "args": {
+                          "spriteSheetId": "2044931e-bd13-4353-a1fd-2df0d6f821bc",
+                          "__collapse": true
+                        },
+                        "id": "6259b725-07c0-4f5b-a5e1-4689db447734"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_PLAYER_SET_SPRITE",
+                        "args": {
+                          "spriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26"
+                        },
+                        "id": "8eda3a00-d6d4-47b5-9497-cd7c2e945f0f"
+                      }
+                    ]
+                  },
+                  "id": "14af09b4-b460-476f-8499-e89e259ed877"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "19",
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "90c3274a-7738-4855-8944-d3603dd67f24"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "19",
+                    "value": {
+                      "type": "false"
+                    }
+                  },
+                  "id": "7c6864d8-a3f5-4e05-a996-1bfd47dfa29b"
+                }
+              ]
+            },
+            "id": "d9bdc787-6783-4414-bf0b-be53ebe1ea0b"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I thought you were\nleaving.",
+                "Don't worry, I'll\ncatch up with you!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c91a14b9-dc38-4a42-81e1-3119d3be4266"
+          }
+        ]
+      },
+      "id": "b6531ff3-e0ff-4d3a-a69d-c95f338d9bc4"
+    }
+  ],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 15,
-  "y": 15,
+  "x": 14,
+  "y": 5,
   "_index": 0
 }

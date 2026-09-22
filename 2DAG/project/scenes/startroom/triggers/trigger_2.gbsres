@@ -1,0 +1,53 @@
+{
+  "_resourceType": "trigger",
+  "id": "8da2cf6a-47ba-46ec-9086-6f71fe043a55",
+  "name": "",
+  "prefabId": "",
+  "x": 1,
+  "y": 8,
+  "symbol": "trigger_18",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "left"
+        }
+      },
+      "id": "a72ae844-b076-4f99-995e-0b5d2bd27c1e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Just old \nscriptures.",
+          "\"Become nothing\nfor something.\""
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "674be566-85e2-4dac-85f3-49ce3bbb112e"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

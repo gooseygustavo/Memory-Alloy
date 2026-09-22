@@ -1,0 +1,99 @@
+{
+  "_resourceType": "actor",
+  "id": "65c6f8dc-5ebb-441c-b7c0-13103c137246",
+  "name": "box1",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "60ffab0e-beec-4990-913d-6089c7fc90e9",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 255,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_4",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "20"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_PUSH",
+            "args": {
+              "continue": false,
+              "__comment": false
+            },
+            "id": "d00d24f1-e49b-4c4f-9a57-b145e01e2b4a"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "player",
+              "emoteId": "cd2b9271-f689-4fe2-8fda-3ccc443b4c21"
+            },
+            "id": "c6a56f89-e9a3-46eb-b4fd-278c72fd8c6d"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I'm not strong \nenough to push\nthis..",
+                "I should find \nsomeone who is."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "3830f22b-bf5a-4b67-bc11-80eef7324331"
+          }
+        ]
+      },
+      "id": "0769c44f-defd-449e-a580-9a8a02bba229"
+    },
+    {
+      "command": "EVENT_ACTOR_GET_POSITION",
+      "args": {
+        "actorId": "$self$",
+        "vectorX": "15",
+        "vectorY": "16",
+        "__collapse": false
+      },
+      "id": "1deaf9b7-35f8-4fa1-ab2c-e4e786c30946"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 26,
+  "y": 9,
+  "_index": 0
+}
