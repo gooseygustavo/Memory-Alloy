@@ -1,0 +1,263 @@
+{
+  "_resourceType": "trigger",
+  "id": "2f0425c8-3fff-427f-a8c7-a3654c44df28",
+  "name": "",
+  "prefabId": "",
+  "x": 9,
+  "y": 17,
+  "symbol": "trigger_45",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "d7399213-34c6-4e10-a0f8-768b0f7f6fe5"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 255
+      },
+      "id": "ad07473f-b473-4462-aff8-1f0438b3615f"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_CANCEL",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "1b4f761f-9f3f-4920-804c-7fb308dbe244"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": false
+      },
+      "id": "da4b314a-497a-486b-9341-941ddc1876d0"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "4579025f-887c-4594-a2cb-3d3c2bbb3a6d"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "2044931e-bd13-4353-a1fd-2df0d6f821bc"
+      },
+      "id": "8cce2594-0fd4-45e9-a68f-db213f38d9ac"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.9,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": false
+      },
+      "id": "69d77eed-c6b2-49b8-b1c5-0330de8da1ff"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.45,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "f7bc7cc9-de22-4e73-8ae2-01eaf1f2965c"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "0a1e463f-335a-426f-95e9-347bb0af3aef"
+      },
+      "id": "976c24c5-a467-453f-829c-7cbabf2fddf5"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.8,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": false
+      },
+      "id": "0140e8bd-f381-4fee-9fcc-89a14a9dc2ad"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.4,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "d52bc954-e745-41d1-a249-d8e33658bea6"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26"
+      },
+      "id": "cc6433f4-18de-4d4f-9e8e-9cdbb6bf5f1e"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.7,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": false
+      },
+      "id": "3a0e40df-7ec2-4382-8fc5-6c82abd0db42"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.35,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "697eb7b7-53be-43dc-9392-68fdbe1c483e"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "2044931e-bd13-4353-a1fd-2df0d6f821bc"
+      },
+      "id": "f55627a4-2ab5-4929-86ba-861bec1a5ce6"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.6,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": false
+      },
+      "id": "ac90d72b-94dc-44dc-8ebb-050972727c7f"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.3,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "f39a8588-5a32-44f4-808e-f410bce32163"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "0a1e463f-335a-426f-95e9-347bb0af3aef"
+      },
+      "id": "fd5f80d8-fc06-442d-b246-274e7740136f"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 4
+        },
+        "__collapse": false
+      },
+      "id": "e28a574f-1857-48a8-9f2e-b85fbccfd757"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.25,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "4e088623-07bc-42df-b9cd-96655d418b3d"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26"
+      },
+      "id": "d17c5a68-1c2c-4e83-a715-a1a57c9b9472"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3936b13b-d45d-4353-a481-513f5bd3b875",
+        "x": {
+          "type": "number",
+          "value": 10
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "9881ed25-9237-466f-9df8-2f6e28fc2858"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

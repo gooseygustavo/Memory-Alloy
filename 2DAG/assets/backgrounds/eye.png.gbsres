@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e8c7203a-9dce-4df2-91a8-7c89bc623453",
+  "name": "eye",
+  "symbol": "bg_eye",
+  "tileColors": "",
+  "filename": "eye.png",
+  "width": 10,
+  "height": 2,
+  "imageWidth": 80,
+  "imageHeight": 16
+}

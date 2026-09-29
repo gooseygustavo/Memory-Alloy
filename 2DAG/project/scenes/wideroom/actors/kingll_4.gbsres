@@ -18,16 +18,6 @@
   "symbol": "actor_12",
   "script": [
     {
-      "command": "EVENT_SET_VALUE",
-      "args": {
-        "variable": "1",
-        "value": {
-          "type": "true"
-        }
-      },
-      "id": "6bcc1963-01dc-4184-b341-617084f82ec5"
-    },
-    {
       "command": "EVENT_IF",
       "args": {
         "condition": {

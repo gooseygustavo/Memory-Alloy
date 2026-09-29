@@ -39,7 +39,7 @@
             "args": {
               "text": [
                 "You know...",
-                "MC could learn a\nthing or two from\nyou.",
+                "That other kid\ncould learn some-\nthing from you.",
                 "Go on."
               ],
               "__section": "text",
@@ -62,6 +62,13 @@
             "id": "df5ac281-a17b-4562-9872-e7a3b983f561"
           },
           {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "e476d57a-47a9-4318-99db-55d1226f6b18"
+            },
+            "id": "ad6f65fc-17fa-46e6-8068-7022f366ed31"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "a973cce5-2400-4b4c-86a2-6e1358a8e69d",
@@ -80,6 +87,13 @@
           }
         ],
         "false": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "e476d57a-47a9-4318-99db-55d1226f6b18"
+            },
+            "id": "e8c33559-19e4-479c-b401-cc58a1e18280"
+          },
           {
             "command": "EVENT_TEXT",
             "args": {

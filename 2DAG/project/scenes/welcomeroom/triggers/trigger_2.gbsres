@@ -22,56 +22,93 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_SET_VALUE",
+            "command": "EVENT_IF",
             "args": {
-              "variable": "28",
-              "value": {
-                "type": "true"
-              }
+              "condition": {
+                "type": "not",
+                "value": {
+                  "type": "variable",
+                  "value": "28"
+                }
+              },
+              "__collapseElse": false
             },
-            "id": "8594a8c2-52ee-460c-be7e-fbf2d6158a96"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "I'll try the key."
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I'll try the key."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "5b51fd2b-b30f-4ede-b3e2-cb7481443a4c"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "28",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "8594a8c2-52ee-460c-be7e-fbf2d6158a96"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "9cc2c381-6faa-4d74-8d51-1ca7bd4b02ef",
+                    "x": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 3
+                    },
+                    "direction": "down",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "462f5903-5dde-4131-bc2e-dc28b5efc09c"
+                }
               ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "false": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "9cc2c381-6faa-4d74-8d51-1ca7bd4b02ef",
+                    "x": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 3
+                    },
+                    "direction": "down",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "783b72cd-24f6-416e-b1f9-9e47e5df86b7"
+                }
+              ]
             },
-            "id": "5b51fd2b-b30f-4ede-b3e2-cb7481443a4c"
-          },
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "9cc2c381-6faa-4d74-8d51-1ca7bd4b02ef",
-              "x": {
-                "type": "number",
-                "value": 9
-              },
-              "y": {
-                "type": "number",
-                "value": 3
-              },
-              "direction": "down",
-              "fadeSpeed": "2"
-            },
-            "id": "462f5903-5dde-4131-bc2e-dc28b5efc09c"
+            "id": "73e9b72a-720e-4e50-9256-ee87ecd3585f"
           }
         ],
         "false": [

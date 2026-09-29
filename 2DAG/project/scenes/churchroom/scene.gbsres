@@ -14,8 +14,8 @@
   "collisions": "0fe+002+0f10+00b+0f!002+0f!00b+0f5+04!0018+0f5+04!00!0f!00!0f!00!0f!00!0f!00!0f!002+0f!00!0f!009+0f5+04!00!0f!00!0f!00!0f!00!0f!00!0f!002+0f!00!0f!009+0f5+04!00!0f!00!0f!00!0f!00!0f!00!0f!002+0f!00!0f!009+0f5+04!00!0f!00!0f!00!0f!00!0f!00!0f!002+0f!00!0f!009+0f5+04!00!0f!00!0f!00!0f!00!0f!00!0f!002+0f!00!0f!009+0f5+04!001a+0f3+04!001a+0f3+04!00!0f!00!0f!00!0f!00!0f!00!0f!002+0f!00!0f!009+0f5+04!00!0f!00!0f!00!0f!00!0f!00!0f!002+0f!00!0f!009+0f5+04!00!0f!00!0f!00!0f!00!0f!00!0f!002+0f!00!0f!009+0f5+04!00!0f!00!0f!00!0f!00!0f!00!0f!002+0f!00!0f!009+0f5+04!00!0f!00!0f!00!0f!00!0f!00!0f!002+0f!00!0f!009+0f5+04!0018+0f4+00b+0f!002+0f!00b+0f10+002+0fe+",
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
-  "x": 296,
-  "y": 216,
+  "x": 456,
+  "y": 232,
   "script": [
     {
       "command": "EVENT_IF",
@@ -340,66 +340,10 @@
         ]
       },
       "id": "c58e7734-835a-411c-be39-926bdeb6ee28"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "27"
-        },
-        "__collapseElse": true,
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_EMOTE",
-            "args": {
-              "actorId": "$self$",
-              "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
-            },
-            "id": "7db6e69b-351c-44c7-958d-df5f8cb95f22"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Is that P2?"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "8bc4b6bb-ee0d-4fb5-8275-66b5bdc16e7b"
-          },
-          {
-            "command": "EVENT_MUSIC_PLAY",
-            "args": {
-              "musicId": "d8580b8e-790d-4d11-aa3c-a8d2e68c5f63"
-            },
-            "id": "ae3f8d25-69f3-4d3c-906a-319a1648a4f9"
-          }
-        ],
-        "false": []
-      },
-      "id": "1ad2ee01-c6ed-4fa3-83fa-eddc90f053c4"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true
 }

@@ -68,6 +68,13 @@
         ],
         "false": [
           {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "e476d57a-47a9-4318-99db-55d1226f6b18"
+            },
+            "id": "8eba9526-5933-486d-a140-97e9baec567f"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "13",

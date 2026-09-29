@@ -44,7 +44,9 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Maybe I should\nfinish exploring\nthis room."
+                "I can't get ahead\nof myself.",
+                "I need to find \nout what's\npast that box.",
+                "But there's no\npeople to \ntransform into.."
               ],
               "__section": "text",
               "avatarId": "",

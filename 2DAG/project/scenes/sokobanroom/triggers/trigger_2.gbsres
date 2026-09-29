@@ -37,7 +37,56 @@
             "id": "77bfc42a-2ada-44e2-8bde-58a566b21aeb"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "0",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "dc24d130-5c2f-4dfa-a583-6a0ed084dbb8"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "cf02f7d9-5cc5-4cc1-8dbc-2e2c3e323539"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "3",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "25121166-8101-4a84-9fa1-dfdd7b1182b5"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "4",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "13f18987-4bd4-46f0-94f3-b536c16d779d"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "e476d57a-47a9-4318-99db-55d1226f6b18"
+            },
+            "id": "5fb7d423-f816-415b-82ca-b6a75b53530d"
+          }
+        ]
       },
       "id": "cac05a6f-88b0-4c3a-a216-b75e87b6eb35"
     },

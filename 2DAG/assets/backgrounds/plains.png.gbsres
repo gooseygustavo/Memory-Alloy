@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f2d88134-c377-4c64-b23f-093556fb48b9",
+  "name": "plains",
+  "symbol": "bg_plains",
+  "tileColors": "",
+  "filename": "plains.png",
+  "width": 30,
+  "height": 18,
+  "imageWidth": 240,
+  "imageHeight": 144
+}

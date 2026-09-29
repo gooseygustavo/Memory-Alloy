@@ -15,7 +15,8 @@
       "args": {
         "variable": "31",
         "trueText": "Leave",
-        "falseText": "Turn back"
+        "falseText": "Turn back",
+        "__collapse": true
       },
       "id": "95d672a4-553c-42bf-86b3-aa89dfadda2e"
     },
@@ -26,34 +27,27 @@
           "type": "variable",
           "value": "31"
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "text": [
-                "ending 1 play"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "sceneId": "e21ddef1-6721-47d9-8ee9-e0d5488267ff",
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "left",
+              "fadeSpeed": "2"
             },
-            "id": "5435aae2-eda1-4ca5-b333-acd3cca1385d"
+            "id": "fdc44bd9-f6a4-4cb9-9291-fdbe6f4f2e06"
           }
         ],
         "false": [
@@ -61,7 +55,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "ending 2 play"
+                "I can come back\nwhen I'm ready."
               ],
               "__section": "text",
               "avatarId": "",

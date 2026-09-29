@@ -340,7 +340,7 @@
       ]
     }
   ],
-  "numTiles": 6,
+  "numTiles": 5,
   "canvasOriginX": 0,
   "canvasOriginY": 0,
   "canvasWidth": 16,
@@ -353,5 +353,5 @@
   "filename": "AKing.png",
   "width": 96,
   "height": 16,
-  "checksum": "8cef8d8ebd821f015342812aba12ffdb2df874f1"
+  "checksum": "7ed5e7fe87ea2276780a2ddd292a5795deb56518"
 }

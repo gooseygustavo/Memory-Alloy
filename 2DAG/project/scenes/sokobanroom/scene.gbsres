@@ -14,8 +14,8 @@
   "collisions": "0f17+00!02c+00!0f6+08!0fc+04!0f4+002+08!0fc+04!002+0f2+006+08!0f4+04!006+0f2+006+08!0f4+04!006+0f2+0012+0f!001b+08!0f4+04!00e+08!0f4+04!007+0f!0012+0f2+0012+0f2+006+08!0f4+04!006+0f2+006+08!0f4+04!006+0f2+002+08!0fc+04!002+0f4+08!0fc+04!0f6+00e+0f17+",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
-  "x": 592,
-  "y": 216,
+  "x": 736,
+  "y": 232,
   "script": [
     {
       "command": "EVENT_SET_VALUE",
@@ -221,7 +221,7 @@
           "value": "21"
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [

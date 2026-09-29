@@ -137,6 +137,56 @@
       "symbol": "var_gotskullkey"
     },
     {
+      "id": "27",
+      "name": "seenP2",
+      "symbol": "var_seenp2"
+    },
+    {
+      "id": "28",
+      "name": "unlockedHallwayTwo",
+      "symbol": "var_unlockedhallwaytwo"
+    },
+    {
+      "id": "29",
+      "name": "prayer",
+      "symbol": "var_prayer"
+    },
+    {
+      "id": "30",
+      "name": "ritualPenance",
+      "symbol": "var_ritualpenance"
+    },
+    {
+      "id": "31",
+      "name": "gameEnd",
+      "symbol": "var_gameend"
+    },
+    {
+      "id": "32",
+      "name": "quiz",
+      "symbol": "var_quiz"
+    },
+    {
+      "id": "33",
+      "name": "takenQuiz",
+      "symbol": "var_takenquiz"
+    },
+    {
+      "id": "34",
+      "name": "choiceMade",
+      "symbol": "var_choicemade"
+    },
+    {
+      "id": "35",
+      "name": "endSceneTrigger",
+      "symbol": "var_endscenetrigger"
+    },
+    {
+      "id": "36",
+      "name": "P2XCoord",
+      "symbol": "var_p2xcoord"
+    },
+    {
       "id": "1075ee68-f5e2-4fe9-9dbd-c0746f299df9__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -162,34 +212,14 @@
       "symbol": "var_local_4"
     },
     {
-      "id": "27",
-      "name": "seenP2",
-      "symbol": "var_seenp2"
-    },
-    {
-      "id": "28",
-      "name": "unlockedHallwayTwo",
-      "symbol": "var_unlockedhallwaytwo"
-    },
-    {
-      "id": "29",
-      "name": "prayer",
-      "symbol": "var_prayer"
-    },
-    {
-      "id": "30",
-      "name": "ritualPenance",
-      "symbol": "var_ritualpenance"
-    },
-    {
       "id": "afe22273-e32c-46ff-ade5-e2abc37801b1__L0",
       "name": "Local 0",
       "symbol": "var_local_5"
     },
     {
-      "id": "31",
-      "name": "gameEnd",
-      "symbol": "var_gameend"
+      "id": "2f0425c8-3fff-427f-a8c7-a3654c44df28__L0",
+      "name": "finalX",
+      "symbol": "var_finalx"
     }
   ],
   "constants": []

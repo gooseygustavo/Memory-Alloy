@@ -56,7 +56,7 @@
                 "type": "variable",
                 "value": "14"
               },
-              "__collapseElse": true,
+              "__collapseElse": false,
               "__collapse": false
             },
             "children": {
@@ -87,7 +87,50 @@
                   "id": "ec005cff-8c0a-4049-bfa3-9544d5d58450"
                 }
               ],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "variable",
+                      "value": "20"
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "The king is long\ndead. ",
+                            "Everyone will\nknow it's really\nme."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "a37dee8f-ee23-4a0c-b3c4-76b8cb10099c"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "ffb342bd-5a73-430e-89db-f48810c58b96"
+                }
+              ]
             },
             "id": "903c2190-da29-411c-a1ca-feda5f72f017"
           }

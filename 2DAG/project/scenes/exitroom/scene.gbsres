@@ -14,9 +14,14 @@
   "collisions": "0f2a+00!0f5+00!0f2+00!0f5+00!0f4+00!0f5+00!0f2+00!0f5+00!0fb+002+0fb+0010+0f4+0010+0f4+0010+0f!01!0028+0f2+0010+0f!02!0f3+00e+0f6+00e+0f6+00e+0f6+00e+0f6+002+0fa+002+0f2b+",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
-  "x": 152,
-  "y": 648,
+  "x": 312,
+  "y": 728,
   "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "dfb3d3eb-82fb-4ad6-9c2f-21d61fdc5c16"
+    },
     {
       "command": "EVENT_IF",
       "args": {
@@ -31,7 +36,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

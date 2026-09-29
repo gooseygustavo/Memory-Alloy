@@ -1,0 +1,52 @@
+{
+  "_resourceType": "trigger",
+  "id": "16673ecc-ec0d-4b84-9dac-4c334104c550",
+  "name": "",
+  "prefabId": "",
+  "x": 12,
+  "y": 3,
+  "symbol": "trigger_39",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        }
+      },
+      "id": "920a51e2-886d-4ea4-88bf-3ab342f517fb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A symbol of power,\nyet stagnance."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b50c9d42-b37b-4804-8ee7-6a8d16492e89"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}

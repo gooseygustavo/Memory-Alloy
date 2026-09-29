@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "e90ba76d-0f83-4774-b9d5-5ad5942a5ced",
+  "name": "",
+  "prefabId": "",
+  "x": 26,
+  "y": 10,
+  "symbol": "trigger_47",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 3,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "There's nothing\nleft for me there."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c28f94e1-08a8-451b-8bbf-d3a5afe56f26"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

@@ -1,0 +1,31 @@
+{
+  "_resourceType": "scene",
+  "id": "e21ddef1-6721-47d9-8ee9-e0d5488267ff",
+  "_index": 14,
+  "name": "Plains",
+  "backgroundId": "f2d88134-c377-4c64-b23f-093556fb48b9",
+  "tilesetId": "",
+  "width": 30,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0fb4+0017+0f!004+0f2+00!0f!00e+0f!00b+0f2+00b+0f!0010+0f2+001c+0f2+001b+0f3+001b+0f3+001b+0f3+001c+0f2+00!0f!005+0f!00d+0f!006+0f2+0011+0f!00a+0f2+001c+0f2+009+0f!0012+0f2+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 64,
+  "y": 720,
+  "script": [
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "49581e90-1757-4f2e-bf0b-681ba4557978"
+      },
+      "id": "c399e0c0-411d-475b-9901-b089664f071f"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

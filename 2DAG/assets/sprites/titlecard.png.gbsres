@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "063db689-81fd-44a9-bd9a-71b4119b43c2",
+  "name": "titlecard",
+  "symbol": "sprite_titlecard",
+  "states": [
+    {
+      "id": "c42f1d90-30f3-4ce0-9511-1a6c7fce078f",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "69902d19-5a41-4293-873b-f4bec256234d",
+          "frames": [
+            {
+              "id": "24b5e324-d032-425c-9a31-6b985b1b03b1",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "53cc2f62-0adb-4487-87b3-56159757f9a3",
+          "frames": [
+            {
+              "id": "67f2a41e-5062-4dda-b574-9c6e77584522",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "a4bd319d-4813-4b98-9164-c8a83e57de31",
+          "frames": [
+            {
+              "id": "95d99951-e21a-4eec-854f-059c2474ba9c",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "96ceda27-f6db-411b-a28d-a3c6c09b93e5",
+          "frames": [
+            {
+              "id": "cd901bf9-eee0-40fb-93ae-f8413bb6586e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8587de3a-c7cf-4977-8081-5e6285949e6b",
+          "frames": [
+            {
+              "id": "bb8ad6e1-09f8-4f5f-b65b-e3f48c6be5f2",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "290a497f-513f-437a-ac43-aef70c2b0397",
+          "frames": [
+            {
+              "id": "47f05989-93f5-41b1-8f5a-943bc91e6b27",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "60aab836-1283-40fa-b8a9-63efb52dd166",
+          "frames": [
+            {
+              "id": "59047f70-0866-4638-b557-b3d8e76d1c06",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2e530c8b-3bfa-4af1-87d9-6e2d26462520",
+          "frames": [
+            {
+              "id": "84882763-2e47-4760-afbe-b2e8bacb3580",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "titlecard.png",
+  "width": 160,
+  "height": 144,
+  "checksum": "eda69efedcfd7f81294643dcc40c0842b232cfbf"
+}

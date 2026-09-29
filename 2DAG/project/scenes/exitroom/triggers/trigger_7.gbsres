@@ -1,0 +1,52 @@
+{
+  "_resourceType": "trigger",
+  "id": "f81af41e-9b7d-43e8-a236-64104b1cdeed",
+  "name": "",
+  "prefabId": "",
+  "x": 5,
+  "y": 14,
+  "symbol": "trigger_38",
+  "prefabScriptOverrides": {},
+  "width": 10,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        }
+      },
+      "id": "abb49591-c965-444b-af7b-dfb0acbafad4"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Don't have time."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b7b427ed-ab48-415c-9108-2997b44073f9"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 6
+}
