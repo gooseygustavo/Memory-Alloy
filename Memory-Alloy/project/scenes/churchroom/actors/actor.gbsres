@@ -84,6 +84,13 @@
                     }
                   },
                   "id": "51270a5d-f6f0-4563-af9c-4fa3f60bebfe"
+                },
+                {
+                  "command": "EVENT_MUSIC_PLAY",
+                  "args": {
+                    "musicId": "d8580b8e-790d-4d11-aa3c-a8d2e68c5f63"
+                  },
+                  "id": "9001d1ce-9ec7-4c50-9169-72dec9296996"
                 }
               ],
               "false": [

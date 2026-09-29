@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "5630c345-a26b-4f81-8b53-ba81b28d6462",
+  "name": "titlecardalt",
+  "symbol": "bg_titlecardalt",
+  "tileColors": "",
+  "filename": "titlecardalt.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}
