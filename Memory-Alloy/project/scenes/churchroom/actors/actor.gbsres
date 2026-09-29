@@ -32,51 +32,16 @@
             "command": "EVENT_IF",
             "args": {
               "condition": {
-                "type": "variable",
-                "value": "27"
+                "type": "not",
+                "value": {
+                  "type": "variable",
+                  "value": "27"
+                }
               },
               "__collapseElse": false
             },
             "children": {
               "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "You should \nprobably get\ngoing.",
-                      "Someone might \ncatch on soon."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "113c5282-7aa0-4afd-ae3d-20452f6c1e9f"
-                }
-              ],
-              "false": [
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "27",
-                    "value": {
-                      "type": "false"
-                    }
-                  },
-                  "id": "4441f8fa-8046-4b75-965b-cddd50734e3b"
-                },
                 {
                   "command": "EVENT_ACTOR_EMOTE",
                   "args": {
@@ -119,17 +84,38 @@
                     }
                   },
                   "id": "51270a5d-f6f0-4563-af9c-4fa3f60bebfe"
-                },
+                }
+              ],
+              "false": [
                 {
-                  "command": "EVENT_MUSIC_PLAY",
+                  "command": "EVENT_TEXT",
                   "args": {
-                    "musicId": "d8580b8e-790d-4d11-aa3c-a8d2e68c5f63"
+                    "text": [
+                      "You should \nprobably get\ngoing.",
+                      "Someone might \ncatch on soon."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
                   },
-                  "id": "58a6f5df-8118-4531-a4a0-dbb970f8798a"
+                  "id": "b8b3f7a6-9fe8-44b0-a54c-cb582271736f"
                 }
               ]
             },
-            "id": "b3b12334-cb42-46b7-8d29-3af3b587a87e"
+            "id": "cef400bf-3dd0-45cf-afdc-e61a2293854c"
           }
         ],
         "false": []
@@ -181,16 +167,6 @@
               "actorId": "$self$"
             },
             "id": "c779589c-28b1-42fc-ac97-b78d10767267"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "27",
-              "value": {
-                "type": "false"
-              }
-            },
-            "id": "1aa21f17-2700-4e2c-bf6e-9ba76eb4eb3e"
           }
         ]
       },
